@@ -23,7 +23,6 @@ def prep_status_data():
 
 def prep_data(trait, regression=False, model_comparison=False):
         df_status = self.prep_status_data()
-        # df_essay = self.prep_essay_data()
 
         tfidf = TfidfVectorizer(stop_words='english', strip_accents='ascii')
 
